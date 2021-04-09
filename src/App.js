@@ -1,9 +1,12 @@
 import Navbar from './components/Navbar'
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import particles from 'react-particles-js'
-import Header from './components/Header'
+import Header from './components/Header';
 import Particles from 'react-particles-js';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact'
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -30,6 +33,10 @@ function App() {
       />
       <Navbar />
       <Header />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
