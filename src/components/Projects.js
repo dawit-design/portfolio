@@ -10,8 +10,10 @@ export default function Projects() {
       <div className="projects-intro">Projects I have completed during my three months Software Engineering Immersive Program</div>
       <div className="projects-container">
         <div className="project-list">
-          <img className="image" src={bostonEat} />
-          <div className="details">
+          <div className="image-container">
+          <img className="project-image" src={bostonEat} />
+          </div>
+          <div className="projects-details">
             <div>
               <div className="title">Boston Eats</div>
               <div className="description">
@@ -32,7 +34,9 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-list">
-          <img className="image" src={streamIt} />
+          <div className="image-container">
+            <img className="project-image" src={streamIt} />
+        </div>
           <div className="details">
             <div>
               <div className="title">Stream-it</div>
@@ -56,7 +60,9 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-list">
-          <img className="image" src={feedable} />
+          <div className="image-container">
+          <img className="project-image" src={feedable} />
+        </div>
           <div className="details">
             <div>
               <div className="title">Feedable</div>
@@ -79,7 +85,9 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-list">
-          <img className="image" src={realtorsInc} />
+          <div className="image-container">
+          <img className="project-image" src={realtorsInc} />
+        </div>
           <div className="details">
             <div>
               <div className="title">realtors-inc</div>
