@@ -1,5 +1,4 @@
 import React from 'react'
-import dawit from '../dawit.jpg'
 import proImg from '../proImg.jpg'
 export default function About() {
   return (
