@@ -115,8 +115,8 @@ nav ul li{
 .circular--landscape {
   display: inline-block;
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 90px;
+  height: 100px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -316,7 +316,7 @@ nav ul li{
   
   .circular--landscape {
   
-    width: 100px;
+    width: 90px;
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
@@ -356,13 +356,7 @@ nav ul li{
     transition: transform .5s;
     border-radius: 18px;
 }
-.circular--landscape {
-  
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  border-radius: 50%;
-}
+
 .about-card h1 {
   font-family: 'ubuntu', sans-serif;
   font-size: 18px;
