@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-      <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo"/></a>
+      <a className="navbar-brand" href="/"><img className="logo" src={logo} alt="logo"/></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icon={faBars} style={{ color: "white" }}/>
   </button>
@@ -25,6 +25,9 @@ export default function Navbar() {
       <li className="nav-item">
         <Link className="nav-link" to="/projects" href="">Projects</Link>
             </li>
+      <li className="nav-item">
+      <a className="nav-link" href="https://drive.google.com/file/d/14boyaRQ5jHlEHwMBNm4rYT4w6u3bVv2L/view?usp=sharing">Resume</a>
+      </li>
       <li className="nav-item">
       <Link className="nav-link"  to="/contact" href="#">Contact</Link>
       </li>

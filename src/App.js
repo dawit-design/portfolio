@@ -14,7 +14,7 @@ function App() {
       <Navbar />
         <Route exact path="/" components={Header}><Header/></Route>
         <Route exact path="/about" components={About} ><About/></Route>
-        <Route exact path="/projects" components={Projects}><Projects/></Route>
+        <Route exact path="/projects" components={Projects}><Projects /></Route>
         <Route exact path="/contact" components={ Contact}><Contact/></Route>
         
       </Router>
