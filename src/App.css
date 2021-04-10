@@ -316,6 +316,13 @@ nav ul li{
   #footer{
     display: none;
   }
+  .circular--landscape {
+  
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
 }
 @media(max-width: 768px){
   
