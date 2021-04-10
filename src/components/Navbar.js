@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -16,16 +17,16 @@ export default function Navbar() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <Link className="nav-link" to="/" href="#">Home <span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About Me</a>
+        <Link className="nav-link" to="/about" href="#">About Me</Link>
             </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Projects</a>
+        <Link className="nav-link" to="/projects" href="">Projects</Link>
             </li>
       <li className="nav-item">
-      <a className="nav-link" href="#">Contact</a>
+      <Link className="nav-link"  to="/contact" href="#">Contact</Link>
       </li>
     </ul>
         </div>
