@@ -268,31 +268,49 @@ nav ul li{
 }
 
 /* contact */
-.contact-form {
+
+.contact-form{
+  height: 490px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  z-index: 1;
+  margin: 60px auto;
+  background: #f2f5f5;
+  padding: 0px;
+  border: 1px solid #37b9f1;
+  font-weight: 300px;
 }
-.form-control {
-  border-radius: 0 !important;
-  border: none !important;
+.contact-form-input{
+  width: 350px;
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px auto;
+  font-family: inherit;
 }
-::placeholder {
-  color: #999 !important;
+.contact-button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.follow {
-  background: #fff;
-  padding: 10px;
-  margin: 15px;
-
+.form-button{
+  border: 1px  solid #f9ab00;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.675rem 0.75rem 0.75rem 0.75rem;
+  margin-top : 2rem auto;
 }
-.contact-info .fa {
-  margin: 10px;
-  color: #007bff;
-  font-weight: bold;
+.social{
+  width: 250px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0 20px 0;
+  border-top: 1px solid #999;
+  padding-top: 20px;
+}
+.social-icon{
+ font-size: 18px;
 }
 /* footer */
 #footer {
