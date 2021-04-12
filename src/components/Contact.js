@@ -8,21 +8,13 @@ export default function Contact() {
           <h1 className="contact-intro">Contact Me</h1>
           <div className="row">
             <div className="col-md-6">
-              <form className="contact-form">
-                {/* <div className="form-group">
-                  <input type="text" className="form-control" placeholder="Your-name" />
-                </div>
-                <div className="form-group">
-                  <input type="number" className="form-control" placeholder="Phone-number" />
-                </div>
-                <div className="form-group">
-                  <input type="email" className="form-control" placeholder="Email-id" />
-                </div>
-                <div className="form-group">
-                  <textarea  className="form-control" rows="4" placeholder="Message"></textarea>
-                </div> */}
-                <a className="btn" href="mailto:dawitawegchow@gmail.com">Contact Me</a>
-              </form>
+            <form action="https://getform.io/f/049dc321-e767-41dd-847b-66fba12939ed" method="POST">
+                  <input type="text" name="name" />
+                  <input type="email" name="email" />
+                  <textarea type="text" name="message" />
+                  <button type="submit">Send</button>
+                </form>
+                
             </div>
             <div className="col-md-6 contact-info">
               <div className="social-icons"><b>Adress:</b><i className="fas fa-map-marker-alt"></i> Somerville, MA</div>
