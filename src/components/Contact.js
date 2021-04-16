@@ -31,7 +31,7 @@ export default function Contact() {
       
       <div className="social">
         <a className="social-icon" href="https://github.com/dawit-design"><i class="fab fa-github"></i></a>
-        <a className="social-icon" href="https://www.linkedin.com/in/dawit-endaylalu-0ab8a41b3/"><i className="fa fa-linkedin"></i></a>
+        <a className="social-icon" href="https://www.linkedin.com/in/dawit-endaylalu/"><i className="fa fa-linkedin"></i></a>
       </div>
     </div>
 
