@@ -1,8 +1,8 @@
 import React from "react";
-import bostonEat from '../boston-eat.png'
-import streamIt from '../stream-it.png'
-import feedable from '../feedable.png'
-import realtorsInc from '../realtors-inc.png'
+import bostonEat from "../boston-eat.png";
+import streamIt from "../stream-it.png";
+import feedable from "../feedable.png";
+import realtorsInc from "../realtors-inc.png";
 
 export default function Projects() {
   return (
@@ -16,9 +16,9 @@ export default function Projects() {
           </div>
           <div className="projects-details">
             <div>
-
               <div className="description">
-                web app for boston eatery that can be accessible by catagories, Cuisine and ratings using zomato api.
+                web app for boston eatery that can be accessible by catagories,
+                Cuisine and ratings using zomato api.
               </div>
             </div>
           </div>
@@ -41,11 +41,11 @@ export default function Projects() {
           </div>
           <div className="details">
             <div>
-
               <div className="description">
-                an Airtable and React full CRUD app that suggests favorite movies and
-                shows on different streaming services. Allows users to post
-                their favorite movies and find the movie through the streaming service
+                an Airtable and React full CRUD app that suggests favorite
+                movies and shows on different streaming services. Allows users
+                to post their favorite movies and find the movie through the
+                streaming service
               </div>
             </div>
           </div>
@@ -53,10 +53,7 @@ export default function Projects() {
             <a href="https://stream-it.netlify.app/" target="_blank">
               <button className="site-button">Visit Site</button>
             </a>
-            <a
-              href="https://github.com/dawit-design/stream-it"
-              target="_blank"
-            >
+            <a href="https://github.com/dawit-design/stream-it" target="_blank">
               <button className="code-button">Code</button>
             </a>
           </div>
@@ -68,10 +65,10 @@ export default function Projects() {
           </div>
           <div className="details">
             <div>
-
               <div className="description">
-                a full-stack app with full CRUD and user authentication and authorization for real time
-                e-commerce web app for food products build using Mongo DB, Express, React and Node.js stack..
+                a full-stack app with full CRUD and user authentication and
+                authorization for real time e-commerce web app for food products
+                build using Mongo DB, Express, React and Node.js stack..
               </div>
             </div>
           </div>
@@ -79,10 +76,7 @@ export default function Projects() {
             <a href="https://feedable.netlify.app/" target="_blank">
               <button className="site-button">Visit Site</button>
             </a>
-            <a
-              href="https://github.com/dawit-design/Feedable"
-              target="_blank"
-            >
+            <a href="https://github.com/dawit-design/Feedable" target="_blank">
               <button className="code-button">Code</button>
             </a>
           </div>
@@ -94,17 +88,15 @@ export default function Projects() {
           </div>
           <div className="details">
             <div>
-
               <div className="description">
-                a full-stack app with full CRUD and user authentication and authorization for property market build using React and Ruby on rails.
+                a full-stack app with full CRUD and user authentication and
+                authorization for property market build using React and Ruby on
+                rails.
               </div>
             </div>
           </div>
           <div className="buttons">
-            <a
-              href="https://realtors-inc.netlify.app/landing"
-              target="_blank"
-            >
+            <a href="https://realtors-inc.netlify.app/landing" target="_blank">
               <button className="site-button">Visit Site</button>
             </a>
             <a

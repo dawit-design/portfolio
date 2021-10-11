@@ -189,10 +189,16 @@ nav ul li{
   margin: 20px auto;
 }
 .projects-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80vw;
+  width: 80vw; */
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #E2E9ED;
+  padding: 60px 10px;
+  position: relative;
+  z-index: 0;
+  transition: 0,2s all;
 }
 
 .project-list {
@@ -212,7 +218,7 @@ nav ul li{
   align-self: flex-start;
 }
 .image-container{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   color: hsl(198, 85%, 55%);
   margin: 15px;
@@ -220,11 +226,11 @@ nav ul li{
   height: 380px;
  
   border: 1px solid hsl(198, 85%, 55%);
-  border-radius: 18px;
+  border-radius: 18px; */
 }
 .project-image{
-  width: 270px;
-  height: 300px;
+  width: 170px;
+  height: 170px;
   padding: 0.5vh;
   border: 1px solid lightblue;
   border-radius: 20px;
