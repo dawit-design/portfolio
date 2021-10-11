@@ -3,6 +3,7 @@ import bostonEat from "../boston-eat.png";
 import streamIt from "../stream-it.png";
 import feedable from "../feedable.png";
 import realtorsInc from "../realtors-inc.png";
+import Card from 'react-bootstrap/Card';
 
 export default function Projects() {
   return (
