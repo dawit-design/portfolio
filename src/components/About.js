@@ -7,8 +7,8 @@ export default function About() {
       <div className="about-card-wrapper">
         <div className="about-card">
           <img className="circular--landscape" src={proImg} alt="profile-image" />
-          <h1 className="fullname">Dawit Awegchow</h1>
-          <p className="job">Web Developer</p>
+          <h1 className="fullname">Dawit A Endaylalu</h1>
+          <p className="job">Web Developer/Graphic Designer</p>
           <p className="about-me">"An enthusiastic software engineer experienced in object-oriented programming languages including Ruby and JavaScript based programming, with a background in graphic design, sales and service industries. A passionate learner excited to strengthen skill set through innovation, problem solving, and quality software builds. With an emphasis on team-oriented and collaborative spirit, I excel at developing strong relationships with clients and delivering on their needs in a timely manner."</p>
           <a className="btn" href="mailto:dawitawegchow@gmail.com">Contact Me</a>
           <ul className="social-icons">

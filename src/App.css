@@ -115,16 +115,17 @@ nav ul li{
 .circular--landscape {
   display: inline-block;
   position: relative;
-  width: 90px;
-  height: 100px;
+  margin: 10px ;
+  width: 190px;
+  height: 190px;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .about-card h1 {
   font-family: 'ubuntu', sans-serif;
   font-size: 22px;
   color: #555;
-  margin: 10px;
+  margin: 5px;
 
 }
 .job {
@@ -137,7 +138,7 @@ nav ul li{
   font-family: 'josefin sans',sans-serif;
   font-size: 14px;
   width: 90%;
-  margin: 15px 0;
+  margin: 5px 0;
   font-style: italic;
   color: #444;
   text-align: center;
