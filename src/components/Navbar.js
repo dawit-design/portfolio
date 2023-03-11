@@ -26,7 +26,7 @@ export default function Navbar() {
               <Link className="nav-link" to="/projects" href="">Projects</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://drive.google.com/file/d/1-SFdT_COPNVrVa-vRR4Epp_ifOWbp4QS/view?usp=sharing">Resume</a>
+              <a className="nav-link" href="https://drive.google.com/file/d/1zLeSI_nKNVn5Y50hHZLk01bQkZa_cZjW/view?usp=sharing">Resume</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact" href="#">Contact</Link>
