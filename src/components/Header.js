@@ -13,7 +13,7 @@ export default function Header() {
           backSpeed={60}
           loop={true}
         />
-        <a href="https://drive.google.com/file/d/103WOmZ5TS1FdPxws7XDhhD4UuZiWqbwH/view?usp=sharing" className="btn-cv-show">Resume</a>
+        <a href="https://drive.google.com/file/d/1yaQhvWg86antJ3t5xG4KunMUxqZLBuzr/view?usp=sharing" className="btn-cv-show">Resume</a>
       </div>
 
     </div>
