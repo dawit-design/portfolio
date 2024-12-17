@@ -1,25 +1,24 @@
-import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact'
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import { Routes, Route } from 'react-router-dom';  // No need to import Router here
+
 function App() {
   return (
-    <>
-      <Router>
+    <div className="App">
       <Navbar />
-        <Route exact path="/" components={Header}><Header/></Route>
-        <Route exact path="/about" components={About} ><About/></Route>
-        <Route exact path="/projects" components={Projects}><Projects /></Route>
-        <Route exact path="/contact" components={ Contact}><Contact/></Route>
-        
-      </Router>
+      <div className="main-content"> {/* This ensures footer stays at the bottom */}
+        <Routes>  {/* Use Routes and Route to define navigation */}
+          <Route path="/" element={<Header />} />  {/* Home Route */}
+          <Route path="/projects-dev" element={<Projects />} />  {/* Projects Route */}
+          <Route path="/contact" element={<Contact />} />  {/* Contact Route */}
+        </Routes>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
